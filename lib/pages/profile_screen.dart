@@ -8,6 +8,9 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +43,63 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   Text("John Doe",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 22),),
                   Text("john@gmail.com",style: TextStyle(fontWeight: FontWeight.w500,color: Colors.black45.withAlpha(100),fontSize: 17),),
                   SizedBox(height: 20,),
-                  Divider(color: Colors.grey.withAlpha(60),),
+                  Card(
+                    color: Colors.white,
+                    elevation: 1,
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10)
+                      ),
+                      child: Padding(
+                        padding: EdgeInsetsGeometry.symmetric(vertical: 15,horizontal: 20),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text('My Recipes',style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Icon(Icons.keyboard_arrow_right,color: Colors.grey,)
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    color: Colors.white,
+                    elevation: 1,
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10)
+                      ),
+                      child: Padding(
+                        padding: EdgeInsetsGeometry.symmetric(vertical: 15,horizontal: 20),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text('Settings',style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Icon(Icons.keyboard_arrow_right,color: Colors.grey,)
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    color: Colors.white,
+                    elevation: 1,
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10)
+                      ),
+                      child: Padding(
+                        padding: EdgeInsetsGeometry.symmetric(vertical: 15,horizontal: 20),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text('Help & Support',style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Icon(Icons.keyboard_arrow_right,color: Colors.grey,)
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
