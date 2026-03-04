@@ -8,7 +8,7 @@ Very simple and static UI
 
 | Home Screen                              | Drawer                                      | Search Screen                               | Profile Screen                              |
 |------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
-| ![Home](assets/screenshots/screen_1.jpg) | ![Details](assets/screenshots/screen_2.png) | ![Details](assets/screenshots/screen_3.png) | ![Details](assets/screenshots/screen_4.png) |
+| ![Home](assets/screenshots/screen_1.jpg) | ![Details](assets/screenshots/screen_2.jpg) | ![Details](assets/screenshots/screen_3.jpg) | ![Details](assets/screenshots/screen_4.jpg) |
 
 
 ---
