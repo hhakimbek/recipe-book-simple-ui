@@ -8,7 +8,7 @@ Very simple and static UI
 
 | Home Screen                              | Drawer                                      | Search Screen                               | Profile Screen                              |
 |------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|
-| ![Home]([assets/screenshots/screen_1.png](https://raw.githubusercontent.com/hhakimbek/recipe-book-simple-ui/main/assets/screenshots/screen_1.png)) | ![Details](assets/screenshots/screen_2.png) | ![Details](assets/screenshots/screen_3.png) | ![Details](assets/screenshots/screen_4.png) |
+| ![Home]([https://raw.githubusercontent.com/hhakimbek/recipe-book-simple-ui/main/assets/screenshots/screen_1.png) | ![Details](assets/screenshots/screen_2.png) | ![Details](assets/screenshots/screen_3.png) | ![Details](assets/screenshots/screen_4.png) |
 
 
 ---
